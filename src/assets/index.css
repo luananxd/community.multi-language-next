@@ -1,0 +1,25 @@
+:root {
+  --background: #313131;
+  --background-fill: #000000;
+  --background-secondary: #4b4b4b;
+  --primary: #0e9b67;
+  --accent: #821188;
+
+  --text: #ffffff;
+  --text-alt: #000000;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  color: var(--text);
+  background-color: var(--background);
+}
+
+main {
+  flex-grow: 1;
+}

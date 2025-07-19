@@ -1,0 +1,32 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 80px;
+  background-color: var(--primary);
+}
+
+.header__title {
+  margin: 0;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header__link {
+  color: var(--text);
+}
+
+.header__link:hover {
+  color: var(--accent);
+}
+
+.header__cart {
+  padding: 4px 16px;
+  color: var(--text);
+  background-color: var(--accent);
+  border-radius: 16px;
+}
