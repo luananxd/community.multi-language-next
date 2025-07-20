@@ -1,0 +1,29 @@
+{
+  "pieces_zero": "{{count}} قطعة",
+  "pieces_one": "{{count}} قطعة",
+  "pieces_two": "{{count}} قطعتين",
+  "pieces_few": "{{count}} قطع",
+  "pieces_many": "{{count}} قطعة",
+  "pieces_other": "{{count}} قطعة",
+
+  "boxes_zero": "{{count}} صندوق",
+  "boxes_one": "{{count}} صندوق",
+  "boxes_two": "{{count}} صندوقين",
+  "boxes_few": "{{count}} صناديق",
+  "boxes_many": "{{count}} صندوق",
+  "boxes_other": "{{count}} صندوق",
+
+  "tickets_zero": "{{count}} تذكرة",
+  "tickets_one": "{{count}} تذكرة",
+  "tickets_two": "{{count}} تذكرتين",
+  "tickets_few": "{{count}} تذاكر",
+  "tickets_many": "{{count}} تذكرة",
+  "tickets_other": "{{count}} تذكرة",
+
+  "cans_zero": "{{count}} علبة",
+  "cans_one": "{{count}} علبة",
+  "cans_two": "{{count}} علبتين",
+  "cans_few": "{{count}} علب",
+  "cans_many": "{{count}} علبة",
+  "cans_other": "{{count}} علبة"
+}

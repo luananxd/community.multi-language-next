@@ -1,0 +1,28 @@
+{
+  "pieces_zero": "{{count}} штук",
+  "pieces_one": "{{count}} штука",
+  "pieces_vp_one": "{{count}} штуку",
+  "pieces_few": "{{count}} штуки",
+  "pieces_many": "{{count}} штук",
+  "pieces_other": "{{count}} штук",
+
+  "boxes_zero": "{{count}} коробок",
+  "boxes_one": "{{count}} коробка",
+  "boxes_vp_one": "{{count}} коробку",
+  "boxes_few": "{{count}} коробки",
+  "boxes_many": "{{count}} коробок",
+  "boxes_other": "{{count}} коробок",
+
+  "tickets_zero": "{{count}} билетов",
+  "tickets_one": "{{count}} билет",
+  "tickets_few": "{{count}} билета",
+  "tickets_many": "{{count}} билетов",
+  "tickets_other": "{{count}} билетов",
+
+  "cans_zero": "{{count}} банок",
+  "cans_one": "{{count}} банка",
+  "cans_vp_one": "{{count}} банку",
+  "cans_few": "{{count}} банки",
+  "cans_many": "{{count}} банок",
+  "cans_other": "{{count}} банок"
+}

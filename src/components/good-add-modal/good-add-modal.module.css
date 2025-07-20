@@ -1,0 +1,50 @@
+.good-add-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(52, 52, 52, 0.6);
+}
+
+.good-add-modal__body {
+  width: 500px;
+  padding: 24px;
+  background-color: var(--background-fill);
+}
+
+.good-add-modal__title {
+  margin: 0 0 24px 0;
+  cursor: default;
+}
+
+.good-add-modal__variants {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.good-add-modal__variant {
+  padding: 16px;
+  background-color: var(--background-secondary);
+  cursor: pointer;
+}
+
+.good-add-modal__count {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.good-add-modal__price {
+  width: fit-content;
+  padding: 4px 16px;
+  background-color: var(--primary);
+  border-radius: 99px;
+}

@@ -3,7 +3,7 @@
   --background-fill: #000000;
   --background-secondary: #4b4b4b;
   --primary: #0e9b67;
-  --accent: #821188;
+  --accent: #a818b0;
 
   --text: #ffffff;
   --text-alt: #000000;
@@ -22,4 +22,5 @@ body {
 
 main {
   flex-grow: 1;
+  padding: 40px 80px 40px 80px;
 }

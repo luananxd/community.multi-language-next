@@ -1,23 +1,62 @@
-import style from "./header.module.css";
+"use client";
 
-export default function Header() {
+import style from "./header.module.css";
+// Types
+import type { Good } from "@/types/catalog";
+import type { Currency } from "@/types/common";
+// Utils
+import {
+  formatDate,
+  formatCurrency,
+  getCurrencyByLocale,
+} from "@/utils/formats";
+// Hooks
+import { useTranslation } from "react-i18next";
+
+interface IProps {
+  cart: Record<string, number>;
+}
+
+export default function Header({ cart }: IProps) {
+  const { i18n, t } = useTranslation();
   const today = new Date();
+
+  const getCartValue = () => {
+    let sum = 0;
+
+    for (const [good, count] of Object.entries(cart)) {
+      const _good: Good = JSON.parse(good);
+      const currency = getCurrencyByLocale(
+        i18n.language ?? ""
+      )?.toLowerCase() as Currency;
+
+      if (!currency) return 0;
+
+      sum += _good.price[currency] * count;
+    }
+
+    return sum;
+  };
+
+  const cartTotal = getCartValue();
 
   return (
     <header className={style["header"]}>
-      <h1 className={style["header__title"]}>Random Store</h1>
+      <h1 className={style["header__title"]}>{t("header:mainTitle")}</h1>
       <div className={style["header__links"]}>
         <a className={style["header__link"]} href="tel:+79999999999">
-          Call Us
+          {t("header:callUs")}
         </a>
         <a className={style["header__link"]} href="mailto:luanan@yandex.ru">
-          Email Us
+          {t("header:emailUs")}
         </a>
         <div>
-          Today is:
-          <time dateTime="2025-07-14"> 07/14/2025</time>
+          {t("header:todayIs")}
+          <time dateTime="2025-07-14"> {formatDate(today)}</time>
         </div>
-        <div className={style["header__cart"]}>Your cart: $0.00</div>
+        <div className={style["header__cart"]}>
+          {t("header:yourCart")} {formatCurrency(cartTotal)}
+        </div>
       </div>
     </header>
   );

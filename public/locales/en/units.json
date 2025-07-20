@@ -1,0 +1,25 @@
+{
+  "pieces_zero": "{{count}} pieces",
+  "pieces_one": "{{count}} piece",
+  "pieces_few": "{{count}} pieces",
+  "pieces_many": "{{count}} pieces",
+  "pieces_other": "{{count}} pieces",
+
+  "boxes_zero": "{{count}} boxes",
+  "boxes_one": "{{count}} box",
+  "boxes_few": "{{count}} boxes",
+  "boxes_many": "{{count}} boxes",
+  "boxes_other": "{{count}} boxes",
+
+  "tickets_zero": "{{count}} tickets",
+  "tickets_one": "{{count}} ticket",
+  "tickets_few": "{{count}} tickets",
+  "tickets_many": "{{count}} tickets",
+  "tickets_other": "{{count}} tickets",
+
+  "cans_zero": "{{count}} cans",
+  "cans_one": "{{count}} can",
+  "cans_few": "{{count}} cans",
+  "cans_many": "{{count}} cans",
+  "cans_other": "{{count}} cans"
+}

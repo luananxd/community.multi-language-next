@@ -1,0 +1,5 @@
+{
+  "pageTitle": "$t(header:mainTitle) - Catalog",
+  "addToCart": "Add to cart",
+  "addItem": "Add $t(units:{{unit}}, { 'count': {{count}} })"
+}

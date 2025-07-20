@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "img": "/images/good_1.jpg",
+    "title": "BLUNKIS",
+    "description": {
+      "en": "A pack of 12 sheets featuring incompatible step-by-step diagrams. Perfect for creative problem-solving or testing the strength of family bonds. Includes one extra screw (just in case).",
+      "ru": "Набор из 12 листов с несовместимыми пошаговыми схемами. Идеально для творческого решения проблем или проверки крепости семейных уз. В комплекте один дополнительный винт (на всякий случай).",
+      "ar": "علبة تحتوي على 12 ورقة بمخططات تدريجية غير متوافقة. مثالية لحل المشكلات الإبداعية أو اختبار متانة الروابط العائلية. تتضمن برغياً إضافياً (تحسباً لأي طارئ)."
+    },
+    "price": {
+      "usd": 3,
+      "rub": 300,
+      "aed": 12
+    },
+    "unit": "boxes"
+  },
+  {
+    "id": 2,
+    "img": "/images/good_2.jpg",
+    "title": "FNYPP",
+    "description": {
+      "en": "A lightweight, semi-transparent item of ambiguous purpose. Looks great on shelves, reflects light softly, and sparks awkward conversations. Potential uses: flower press, coaster, or existential conversation starter.",
+      "ru": "Лёгкий полупрозрачный предмет неочевидного назначения. Отлично смотрится на полке, мягко отражает свет и провоцирует неловкие беседы. Возможное применение: пресс для цветов, подставка или повод для философских разговоров.",
+      "ar": "قطعة خفيفة الوزن شبه شفافة بغموض في الغرض. تبدو رائعة على الرفوف، تعكس الضوء بلطف وتثير محادثات محرجة. استخدامات محتملة: مكبس زهور، أو حافظة أكواب، أو بداية لحديث وجودي."
+    },
+    "price": {
+      "usd": 1,
+      "rub": 100,
+      "aed": 4
+    },
+    "unit": "tickets"
+  },
+  {
+    "id": 3,
+    "img": "/images/good_3.jpg",
+    "title": "KLÖBB",
+    "description": {
+      "en": "Plush rug embroidered with \"HÄR OCH NU\" (\"Here and now\")—except the \"Ä\" is accidentally replaced with \"Ö.\" Helps practice embracing life’s little imperfections.",
+      "ru": "Плюшевый коврик с вышивкой \"HÄR OCH NU\" (\"Здесь и сейчас\"), где \"Ä\" случайно заменена на \"Ö\". Помогает учиться принимать мелкие несовершенства жизни.",
+      "ar": "سجادة مخملية مطرزة بعبارة \"HÄR OCH NU\" (\"هنا والآن\") مع استبدال حرف \"Ä\" بالخطأ بحرف \"Ö\". تساعد في تقبل النقائص الصغيرة في الحياة."
+    },
+    "price": {
+      "usd": 5,
+      "rub": 500,
+      "aed": 20
+    },
+    "unit": "boxes"
+  },
+  {
+    "id": 4,
+    "img": "/images/good_4.jpg",
+    "title": "VURM",
+    "description": {
+      "en": "Sturdy cardboard container with an airtight lid. Ideal for those who appreciate emptiness. Fill with dreams, autumn breezes, or spare batteries (why not?).",
+      "ru": "Прочный картонный контейнер с герметичной крышкой. Идеален для ценителей пустоты. Можно наполнить мечтами, осенними бризами или запасными батарейками (почему бы и нет?).",
+      "ar": "حاوية كرتونية متينة بغطاء محكم. مثالية لعشاق الفراغ. املأها بأحلامك، نسمات الخريف، أو بطاريات احتياطية (لم لا؟)."
+    },
+    "price": {
+      "usd": 6,
+      "rub": 600,
+      "aed": 24
+    },
+    "unit": "cans"
+  },
+  {
+    "id": 5,
+    "img": "/images/good_5.jpg",
+    "title": "ÅHÅJ",
+    "description": {
+      "en": "Ceramic candleholder shaped like a prohibition symbol. Purely decorative. If you light a candle anyway, it glows red and emits a disappointed sigh.",
+      "ru": "Керамический подсвечник в форме знака запрета. Чисто декоративный. Если всё же зажечь свечу, он засветится красным и издаст разочарованный вздох.",
+      "ar": "حامل شموع سيراميك على شكل رمز المنع. زخرفي بحت. إذا أضأت شمعة رغم ذلك، يتوهج باللون الأحمر ويصدر تنهيدة خيبة أمل."
+    },
+    "price": {
+      "usd": 10,
+      "rub": 1000,
+      "aed": 40
+    },
+    "unit": "pieces"
+  },
+  {
+    "id": 6,
+    "img": "/images/good_6.jpg",
+    "title": "SMÅSUS",
+    "description": {
+      "en": "A fabric bag containing smooth wooden spheres. No one knows their purpose, but everyone loves fidgeting with them. Possibly a meditation tool… or missing parts from another IKEA product.",
+      "ru": "Тканевый мешочек с гладкими деревянными шариками. Никто не знает их назначения, но все любят их теребить. Возможно, инструмент для медитации... или недостающие детали другого товара IKEA.",
+      "ar": "حقيبة قماشية تحتوي على كرات خشبية ناعمة. لا أحد يعرف هدفها، لكن الجميع يحب العبث بها. ربما أداة للتأمل... أو قطع ناقصة من منتج آخر من ايكيا."
+    },
+    "price": {
+      "usd": 4,
+      "rub": 400,
+      "aed": 16
+    },
+    "unit": "pieces"
+  },
+  {
+    "id": 7,
+    "img": "/images/good_7.jpg",
+    "title": "TRÖLLSK",
+    "description": {
+      "en": "A 500-piece jigsaw puzzle that claims to depict \"serene Swedish landscapes,\" but the box art is just a blurry photo of a meatball. Once opened, you’ll find 497 pieces and a note that reads, \"The journey is the destination.\" Comes with a tiny allen wrench for emotional support.",
+      "ru": "Пазл на 500 элементов, якобы изображающий \"спокойные шведские пейзажи\", но на коробке — просто размытое фото фрикадельки. Внутри вы найдёте 497 элементов и записку \"Путешествие — это цель\". В комплекте маленький шестигранный ключ для моральной поддержки.",
+      "ar": "لغز بانوراما 500 قطعة يزعم تصوير \"مناظر سويدية هادئة\"، لكن غلاف الصندورة مجرد صورة ضبابية لكرة لحم. عند الفتح ستجد 497 قطعة وملاحظة تقول \"الرحلة هي الهدف\". يأتي مع مفتاح آلن صغير للدعم العاطفي."
+    },
+    "price": {
+      "usd": 2,
+      "rub": 200,
+      "aed": 8
+    },
+    "unit": "boxes"
+  },
+  {
+    "id": 8,
+    "img": "/images/good_8.jpg",
+    "title": "SNÖFLING",
+    "description": {
+      "en": "Eco-friendly silicone bubble wrap designed for eternal satisfaction. Endlessly clickable, dishwasher-safe, and strangely therapeutic. Warning: May cause coworkers to hover around your desk indefinitely. Storage not included (because you’ll never put it away).",
+      "ru": "Экологичная пузырчатая плёнка из силикона для вечного удовольствия. Бесконечно кликабельна, моется в посудомойке и странно терапевтична. Предупреждение: может привести к бесконечному зависанию коллег у вашего стола. Хранение не предусмотрено (потому что вы её никогда не уберёте).",
+      "ar": "فقاعات تغليف سيليكون صديقة للبيئة مصممة لإرضاء أبدي. لا تنتهي متعة فرقعة الفقاعات، آمنة لغسالة الصحون وذات تأثير علاجي غريب. تحذير: قد تتسبب بتجمع الزملاء حول مكتبك إلى الأبد. لا تتضمن حل تخزين (لأنك لن تضعها جانباً أبداً)."
+    },
+    "price": {
+      "usd": 6,
+      "rub": 600,
+      "aed": 24
+    },
+    "unit": "boxes"
+  }
+]
