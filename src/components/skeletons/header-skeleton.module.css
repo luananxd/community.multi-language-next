@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 80px;
+  background-color: var(--primary);
+}
+
+.header__title {
+  margin: 0;
+  width: 220px;
+  height: 37px;
+}
+
+.header__links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.header__link {
+  width: 60px;
+  height: 18px;
+}
+
+.header__today {
+  width: 150px;
+  height: 18px;
+}
+
+.header__cart {
+  width: 150px;
+  height: 26px;
+  background-color: var(--accent);
+  border-radius: 16px;
+}

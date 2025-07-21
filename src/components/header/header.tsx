@@ -10,8 +10,11 @@ import {
   formatCurrency,
   getCurrencyByLocale,
 } from "@/utils/formats";
+// Components
+import HeaderSkeleton from "@/components/skeletons/header-skeleton";
 // Hooks
 import { useTranslation } from "react-i18next";
+import { useClientReady } from "@/utils/providers/client-ready-provider";
 
 interface IProps {
   cart: Record<string, number>;
@@ -19,6 +22,7 @@ interface IProps {
 
 export default function Header({ cart }: IProps) {
   const { i18n, t } = useTranslation();
+  const ready = useClientReady();
   const today = new Date();
 
   const getCartValue = () => {
@@ -39,6 +43,8 @@ export default function Header({ cart }: IProps) {
   };
 
   const cartTotal = getCartValue();
+
+  if (!ready) return <HeaderSkeleton />;
 
   return (
     <header className={style["header"]}>

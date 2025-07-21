@@ -14,10 +14,6 @@ export async function getLanguage() {
   const headersLng = getLanguageFromHeaders(h);
   const cookiesLng = c.get(config.cookie)?.value;
 
-  if (headersLng && !cookiesLng) {
-    c.set(config.cookie, headersLng);
-  }
-
   return cookiesLng ?? headersLng ?? config.lng;
 }
 

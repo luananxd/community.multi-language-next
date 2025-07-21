@@ -1,16 +1,18 @@
 import "@/assets/index.css";
+import "@/assets/skeletons.css";
 import type { Metadata } from "next";
 import {
   createServerInstance,
   getLanguage,
 } from "@/utils/localization/i18n.server";
-import Providers from "@/components/providers";
+import Providers from "@/utils/providers/providers";
 
 export const metadata: () => Promise<Metadata> = async () => {
   const i18n = await createServerInstance();
 
   return {
     title: i18n.t("main:pageTitle"),
+    description: i18n.t("main:pageDescription"),
   };
 };
 

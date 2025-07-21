@@ -1,5 +1,6 @@
 {
   "pageTitle": "$t(header:mainTitle) - Каталог",
+  "pageDescription": "Просмотрите наш каталог товаров",
   "addToCart": "Добавить в корзину",
   "addItem": "Добавить $t(units:{{unit}}, { 'count': {{count}} })"
 }

@@ -1,5 +1,6 @@
 {
   "pageTitle": "$t(header:mainTitle) - الكتالوج",
+  "pageDescription": "تصفّح كتالوج منتجاتنا",
   "addToCart": "أضف إلى السلة",
   "addItem": "أضف $t(units:{{unit}}, { 'count': {{count}} })"
 }

@@ -3,7 +3,6 @@
 import "@/assets/catalog.css";
 import mockGoods from "~/public/goods.json";
 // Types
-import type { Metadata } from "next";
 import type { CartRecord, Good } from "@/types/catalog";
 // Components
 import MainLayout from "@/layouts/main-layout";

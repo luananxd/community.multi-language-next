@@ -24,12 +24,22 @@
 
 .item__name {
   margin: 0;
+  width: 65%;
+  height: 28px;
 }
 
 .item__description {
   flex-grow: 1;
   margin: 0;
-  font-size: 14px;
+}
+
+.item__text {
+  height: 14px;
+  margin: 3px 0;
+}
+
+.item__text:last-child {
+  width: 35%;
 }
 
 .item__buttons {
@@ -40,11 +50,14 @@
 
 .item__button {
   grid-column: 1 / -1;
-  padding: 4px 16px;
-  font-size: 16px;
-  color: var(--text-alt);
+  height: 26px;
   background-color: var(--accent);
   border: none;
   border-radius: 16px;
   cursor: pointer;
+}
+
+.item__button-text {
+  max-width: 100px;
+  margin: 0 auto;
 }

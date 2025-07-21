@@ -4,27 +4,23 @@ import style from "./footer.module.css";
 // Utils
 import clsx from "clsx";
 import { changeUserInterfaceLanguage } from "@/utils/localization/i18n.client";
+// Components
+import FooterSkeleton from "@/components/skeletons/footer-skeleton";
 // Hooks
-import { useState, useEffect } from "react";
 import { useTranslation } from "react-i18next";
+import { useClientReady } from "@/utils/providers/client-ready-provider";
 
 export default function Footer() {
   const { i18n } = useTranslation();
-  const [ready, setReady] = useState(false);
+  const ready = useClientReady();
 
-  useEffect(() => {
-    if (i18n.isInitialized) {
-      setReady(true);
-    }
-  }, [i18n.isInitialized]);
-
-  const setActiveState = (lang: string) => {
-    return document && document?.documentElement.lang === lang
+  const setActiveState = (language: string) => {
+    return i18n.language === language
       ? style["footer__button--active"]
       : undefined;
   };
 
-  if (!ready) return <div className={style["footer__placeholder"]}></div>;
+  if (!ready) return <FooterSkeleton />;
   else
     return (
       <footer className={style["footer"]}>

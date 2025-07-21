@@ -1,12 +1,21 @@
 :root {
   --background: #313131;
+  --background-alt: #ffffff;
   --background-fill: #000000;
   --background-secondary: #4b4b4b;
+  --background-tertiary: #aeaeae;
+
   --primary: #0e9b67;
   --accent: #a818b0;
 
   --text: #ffffff;
   --text-alt: #000000;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
