@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
-
-## Getting Started
-
-First, run the development server:
+## Установка
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+$ yarn install # Установить зависимости
+$ yarn dev # Запуск локального сервера
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Описание
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Мультиязычность реализована с помощью библиотеки [i18next](https://www.i18next.com/). Для её работы написаны серверная и клиентская утилиты (`localization.server.ts` и `localization.client.ts`), а также мидлвара `localization.middleware.ts`.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Сохранение настроек языка происходит путём установки cookie `language`. Язык определяется в корневом макете (серверный компонент), а затем передается в клиентские с помощью провайдера i18next. Язык влияет на аттрибуты `lang` и `rtl` (актуально для языков вроде арабского или иврита), которые также устанавливаются в корневом макете.
 
-## Learn More
+Для перевода товаров, а также адаптации их цен, подразумевается, что нужные данные заполняются через админку, поэтому их изменение реализовано через обращение к определенным ключам объекта.
 
-To learn more about Next.js, take a look at the following resources:
+```ts
+{
+  description: {
+    en: ...
+    ru: ...
+    ar: ...
+  },
+  price: {
+    usd: ...
+    rub: ...
+    aed: ...
+  }
+}
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Полезные ссылки
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Документация i18next](https://www.i18next.com/overview/supported-frameworks)
+- [Список поддерживаемых языков и фреймворков](https://www.i18next.com/overview/supported-frameworks)
+- [Список плагинов и утилит](https://www.i18next.com/overview/plugins-and-utils)
+- [Ссылка на презентацию](https://docs.google.com/presentation/d/11cmBW3sPbydTORDG79FZ94516S5HyG7E1zzrbdPiW8s/edit?usp=sharing)
